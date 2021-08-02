@@ -1,0 +1,30 @@
+
+{
+    "name": "skowei/dashboard",
+    "description": "Dashboard made with tailwindcss & alpinejs",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Skowei\\Dashboard\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Skowei",
+            "email": "macieiskowronski@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": 
+    {
+        "skowei/ui"     : "^1.0.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Skowei\\Dashboard\\DashboardServiceProvider"
+            ]
+        }
+    }
+}
