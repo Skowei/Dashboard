@@ -5,19 +5,18 @@
 - [ ] React
 
 ### How to install ?
-- Download package 
+#### 1. Download package 
   ```php
   composer require skowei/dashboard
   ```
 
-- Install Package 
+#### 2. Install Package 
   ```php
   php artisan sk/dashboard:install
   ```
 
-  > Package comes with basic routes, migration and seeder for included pages
-  and aside functionality.
-  > After installation Include ```dashboard.php``` in your ```web.php``` file
+  > Package comes with basic routes, migration and seeder for included pages and aside functionality. </br>
+  > After installation Include ```dashboard.php``` in your ```web.php``` file </br>
   > and ```dashboardSeeder.php``` to your ```databaseSeeder.php``` file and run
   ```php artisan migrate --seed```
 
@@ -26,17 +25,17 @@
   ```php
   Composer Update
   ```
-  to update package to newest version if available
+&nbsp;&nbsp;&nbsp; to update package to newest version if available
 
 #### 2. Update by deleting certain files and running
   ```php
   php artisan sk/dashboard:update
   ```
-  to copy their new version, or simply run
+&nbsp;&nbsp;&nbsp; to copy their new version, or simply run
   ```php
   php artisan sk/dashboard:update --force
   ```
-  to override all files
+&nbsp;&nbsp;&nbsp; to override all files
 
 ### Commands
 - ```php
